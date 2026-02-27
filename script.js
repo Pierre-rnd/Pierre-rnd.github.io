@@ -30,3 +30,38 @@ cards.forEach(card => {
         card.style.boxShadow = '';
     });
 });
+
+const text = ["Développeur Web", "Développeur Python", "Recherche alternance 2026"];
+let index = 0;
+let charIndex = 0;
+let currentText = "";
+let isDeleting = false;
+
+function typeEffect() {
+    const typingElement = document.getElementById("typing");
+
+    if (index >= text.length) index = 0;
+
+    if (!isDeleting) {
+        currentText = text[index].substring(0, charIndex++);
+    } else {
+        currentText = text[index].substring(0, charIndex--);
+    }
+
+    typingElement.textContent = currentText;
+
+    if (!isDeleting && charIndex === text[index].length + 1) {
+        isDeleting = true;
+        setTimeout(typeEffect, 1000);
+        return;
+    }
+
+    if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        index++;
+    }
+
+    setTimeout(typeEffect, isDeleting ? 50 : 100);
+}
+
+typeEffect();

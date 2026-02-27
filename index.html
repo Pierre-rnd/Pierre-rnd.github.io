@@ -11,49 +11,111 @@
 <header>
     <nav>
         <h2>Pierre RENARD</h2>
+        <span class="status">Disponible pour alternance 2026</span>
         <ul>
             <li><a href="#about">À propos</a></li>
             <li><a href="#skills">Compétences</a></li>
             <li><a href="#projects">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#why">Pourquoi me choisir ?</a></li>
         </ul>
         <div class="burger">&#9776;</div>
     </nav>
 </header>
 
 <section class="hero">
-    <h1>Développeur Web & Python</h1>
-    <p>Étudiant en BTS SIO – Recherche alternance 3e année</p>
-    <div class="buttons">
-        <a href="#projects" class="btn">Voir mes projets</a>
-        <a href="cv.pdf" class="btn-outline">Télécharger CV</a>
+    <div class="hero-content">
+        <h1>Bonjour, je suis <span class="highlight">Pierre Renard</span></h1>
+        <h2><span id="typing"></span></h2>
+        <p>
+            Étudiant en BTS SIO spécialisé développement.
+            Je crée des applications web modernes, performantes et structurées.
+        </p>
+        <div class="buttons">
+            <a href="#projects" class="btn">Voir mes projets</a>
+            <a href="cv.pdf" class="btn-outline">Télécharger CV</a>
+        </div>
     </div>
 </section>
 
-<section id="about" class="section">
-    <h2>À propos</h2>
-    <p>
-        Étudiant passionné par le développement web et logiciel. 
-        Je conçois des applications complètes du front-end au back-end 
-        avec une approche structurée et orientée projet.
-    </p>
+<section id="about" class="section about-section">
+    <div class="about-container">
+
+        <div class="about-text">
+            <h2>À propos</h2>
+            <p class="about-intro">
+                Je suis étudiant en BTS SIO, spécialisé en développement.
+                J’aime concevoir des applications complètes, de la base de données
+                jusqu’à l’interface utilisateur.
+            </p>
+
+            <p>
+                Je travaille régulièrement sur des projets personnels afin
+                d'améliorer mes compétences en architecture, sécurité et performance.
+                Mon objectif est d’intégrer une entreprise en alternance pour
+                participer à des projets concrets et monter rapidement en compétence.
+            </p>
+        </div>
+
+        <div class="about-stats">
+
+            <div class="stat">
+                <h3>Fullstack</h3>
+                <p>Front & Back-end</p>
+            </div>
+
+            <div class="stat">
+                <h3>Autonome</h3>
+                <p>Gestion complète de projet</p>
+            </div>
+        </div>
+
+    </div>
 </section>
 
 <section id="skills" class="section">
-    <h2>Compétences</h2>
-    <div class="skills-grid">
-        <div>HTML / CSS</div>
-        <div>JavaScript</div>
-        <div>Python</div>
-        <div>PHP</div>
-        <div>Visual Basic</div>
-        <div>Csharp</div>
-        <div>Java</div>
-        <div>SQL / MySQL</div>
-        <div>Git / GitHub</div>
-        <div>Framework React</div>
-        <div>Framework CakePHP</div>
-        <div>Google Apps Script</div>
+    <h2>Compétences techniques</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-category">
+            <h3>Front-end</h3>
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>React</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Back-end</h3>
+            <div class="tags">
+                <span>Python</span>
+                <span>PHP</span>
+                <span>C#</span>
+                <span>Java</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Base de données</h3>
+            <div class="tags">
+                <span>SQL</span>
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Outils & Environnements</h3>
+            <div class="tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Visual Studio</span>
+                <span>Google Apps Script</span>
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -62,10 +124,19 @@
     <div class="projects-grid">
 
         <div class="card">
-            <h3>Site Manga (Render)</h3>
-            <p>Application CRUD complète avec filtrage et gestion JSON.</p>
-            <p>(Peut prendre un certain temps avant de se lancer)</p>
-            <a href="https://site-mangas-1.onrender.com/login" target="_blank">Voir le site</a>
+            <h3>Application Manga Manager</h3>
+            <p>
+                Application web complète développée en Flask.
+                Authentification, CRUD, filtrage dynamique et gestion JSON.
+            </p>
+            <ul>
+                <ul>✔ Backend Python</ul>
+                <ul>✔ Authentification sécurisée</ul>
+                <ul>✔ Interface responsive</ul>
+            </ul>
+            <a href="https://site-mangas-1.onrender.com/login" target="_blank">
+                Voir le projet →
+            </a>
         </div>
 
         <div class="card">
@@ -74,6 +145,26 @@
             <a href="https://github.com/DevJoySR/MetaBet/tree/main" target="_blank">Voir sur GitHub</a>
         </div>
 
+    </div>
+</section>
+
+<section id="why" class="section">
+    <h2>Pourquoi me choisir ?</h2>
+    <div class="projects-grid">
+        <div class="card">
+            <h3>Autonome</h3>
+            <p>Capable de concevoir un projet complet du cahier des charges à la mise en production.</p>
+        </div>
+
+        <div class="card">
+            <h3>Esprit logique</h3>
+            <p>Formation BTS SIO + projets techniques orientés résolution de problèmes.</p>
+        </div>
+
+        <div class="card">
+            <h3>Motivé</h3>
+            <p>Recherche active d'alternance avec volonté de progresser rapidement.</p>
+        </div>
     </div>
 </section>
 
@@ -86,17 +177,32 @@
     </p>
 </section>
 
-<section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email : pierre.renard321@gmail.com</p>
-    <p>GitHub : <a href="https://github.com/Pierre-rnd" target="_blank">GitHub</a></p>
-    <p>LinkedIn : <a href="https://www.linkedin.com/in/pierre-renard-939824329/" target="_blank">Profil LinkedIn</a></p>
-</section>
-
 <footer>
-    <p>© 2026 Pierre RENARD - Portfolio</p>
-</footer>
+    <div class="footer-container">
 
+        <div class="footer-left">
+            <h3>Pierre Renard</h3>
+            <p>Étudiant BTS SIO - Recherche alternance 2026</p>
+        </div>
+
+        <div class="footer-center">
+            <p>Email :</p>
+            <a href="mailto:pierre.renard321@gmail.com">
+                pierre.renard321@gmail.com
+            </a>
+        </div>
+
+        <div class="footer-right">
+            <a href="https://github.com/Pierre-rnd" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/pierre-renard-939824329/" target="_blank">LinkedIn</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 Pierre RENARD - Tous droits réservés
+    </div>
+</footer>
 <script src="script.js"></script>
 </body>
 </html>
