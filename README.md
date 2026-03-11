@@ -5,14 +5,14 @@ Développeur Web & Python – Recherche alternance 3e année
 
 ---
 
-## 🚀 À propos
+## À propos
 
 Je suis passionné par le développement web et logiciel.  
 Je conçois des applications complètes, du front-end au back-end, et j’aime résoudre des challenges techniques.
 
 ---
 
-## 🛠 Compétences techniques
+## Compétences techniques
 
 - **Langages :** HTML, CSS, JavaScript, Python, SQL, VB, Google Apps Script, PHP  
 - **Frameworks / Outils :** React, Git, GitHub, MySQL, CakePHP  
@@ -20,7 +20,7 @@ Je conçois des applications complètes, du front-end au back-end, et j’aime r
 
 ---
 
-## 💻 Projets principaux
+## Projets principaux
 
 - **Site Manga (Render)** – CRUD complet, filtrage, gestion JSON  
 - **Site Metabet** – Jeux d'arcades 
@@ -29,19 +29,19 @@ Tous les projets sont disponibles sur mon GitHub.
 
 ---
 
-## 📄 CV
+## CV
 
 Téléchargez mon CV ici : [cv.pdf](cv.pdf)  
 
 ---
 
-## 🌐 Portfolio en ligne
+## Portfolio en ligne
 
 Mon site portfolio est disponible ici : [Portfolio](https://pierre-rnd.github.io/)
 
 ---
 
-## 📬 Contact
+## Contact
 
 - **Email :** pierre.renard321@gmail.com  
 - **GitHub :** [Pierre-rnd](https://github.com/Pierre-rnd)  
