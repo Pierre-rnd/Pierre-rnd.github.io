@@ -31,7 +31,7 @@ cards.forEach(card => {
     });
 });
 
-const text = ["Développeur Web", "Développeur Python", "Recherche alternance 2026"];
+const text = ["Développeur Web", "Développeur Python"];
 let index = 0;
 let charIndex = 0;
 let currentText = "";
