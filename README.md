@@ -1,7 +1,7 @@
 # Portfolio de Pierre RENARD
 
 Étudiant en BTS SIO – Option SLAM  
-Développeur Web & Python – Recherche alternance 3e année
+Développeur Web & Python
 
 ---
 
