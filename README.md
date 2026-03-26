@@ -23,7 +23,7 @@ Je conçois des applications complètes, du front-end au back-end, et j’aime r
 ## Projets principaux
 
 - **Site Manga (Render)** – CRUD complet, filtrage, gestion JSON  
-- **Site Metabet** – Jeux d'arcades 
+- **Site Metabet** – Plateforme de jeux d'arcades 
 
 Tous les projets sont disponibles sur mon GitHub.
 
