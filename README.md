@@ -1,6 +1,6 @@
 # Portfolio de Pierre RENARD
 
-Étudiant en BTS SIO – Option SLAM  
+Étudiant en L3 MIAGE a l'istic de rennes
 Développeur Web & Python
 
 ---
@@ -15,14 +15,14 @@ Je conçois des applications complètes, du front-end au back-end, et j’aime r
 ## Compétences techniques
 
 - **Langages :** HTML, CSS, JavaScript, Python, SQL, VB, Google Apps Script, PHP  
-- **Frameworks / Outils :** React, Git, GitHub, MySQL, CakePHP  
+- **Frameworks / Outils :** Git, GitHub, MySQL, CakePHP  
 - **Autres :** CTF / sécurité, algorithmique, déploiement
 
 ---
 
 ## Projets principaux
 
-- **Site Manga (Render)** – CRUD complet, filtrage, gestion JSON  
+- **Site Manga ** – CRUD complet, filtrage, gestion JSON  
 - **Site Metabet** – Plateforme de jeux d'arcades 
 
 Tous les projets sont disponibles sur mon GitHub.
